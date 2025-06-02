@@ -1,0 +1,33 @@
+{
+  "name": "cypress-bdd-framework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:tests": "cypress run",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:firefox": "cypress run --browser firefox",
+    "test:describle": "npx cypress run --spec cypress/e2e/describle.cy.js",
+    "test:login": "npx cypress run --spec cypress/e2e/commands.cy.js"
+  },
+  "keywords": [
+    "Cypress",
+    "BDD",
+    "Cucumber"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "cypress with cucumber BDD",
+  "dependencies": {
+    "@cypress/grep": "^4.1.0",
+    "cypress": "^14.4.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-xpath": "^2.0.1",
+    "prettier": "^3.5.3"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "plugin": "^0.3.3"
+  }
+}
+
