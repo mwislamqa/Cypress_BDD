@@ -13,6 +13,6 @@ it('shadowdom testing', ()=>{
     //    .find('#pizza').clear()
     //    .type('i love cypress')
 
-    
+       console.log('shadow dom testing')
        cy.get('#pizza', {includeShadowDom: true}).clear().type('i love cypress')
 })
