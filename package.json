@@ -15,7 +15,7 @@
     "BDD",
     "Cucumber"
   ],
-  "author": "",
+  "author": "Md Waliul Islam",
   "license": "ISC",
   "description": "cypress with cucumber BDD",
   "dependencies": {
