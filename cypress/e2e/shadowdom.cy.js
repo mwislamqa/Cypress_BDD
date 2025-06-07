@@ -13,6 +13,16 @@ it('shadowdom testing', ()=>{
     //    .find('#pizza').clear()
     //    .type('i love cypress')
 
-       console.log('shadow dom testing')
-       cy.get('#pizza', {includeShadowDom: true}).clear().type('i love cypress')
+     
+      // cy.scrollTo(0,1500)
+      cy.get('#shub43').type('ssss@gmail.com')
+       cy.get('#userName').shadow().find('input#kils').type("cypress")
+      // cy.get('#userName').shadow().find('#app2').shadow().find('#pizza').type("cypress")
+    //        //    .shadow()
+    //    .find('#pizza').type('selenium')
+       
+       //cy.get('#pizza',{ timeout: 10000 }, {includeShadowDom: true}).clear().type('i love cypress')
+
+
+      
 })

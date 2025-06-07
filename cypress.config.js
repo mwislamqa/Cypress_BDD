@@ -1,10 +1,11 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
+ chromeWebSecurity:false,
   //retries: 1,
   reporter: 'cypress-mochawesome-reporter',//html report mochawesome
-  screenshotOnRunFailure :true,
-  e2e: {
+  screenshotOnRunFailure: true,
+  e2e: {  
     // "baseUrl": "https://www.saucedemo.com/",
     // "specPattern": [
     //   //spec file need to added here
