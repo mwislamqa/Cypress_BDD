@@ -6,7 +6,7 @@ module.exports = defineConfig({
   reporter: 'cypress-mochawesome-reporter',//html report mochawesome
   screenshotOnRunFailure: true,
   e2e: {  
-    // "baseUrl": "https://www.saucedemo.com/",
+    "baseUrl": "https://www.saucedemo.com/",
     // "specPattern": [
     //   //spec file need to added here
     // ],
