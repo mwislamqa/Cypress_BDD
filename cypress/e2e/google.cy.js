@@ -7,7 +7,7 @@ it('google search', ()=>{
     .and('contain','google')
     .and('eq','https://www.google.com/')
     cy.get('[name=q]').should('be.visible')
-    cy.get('[name=q1]').type('cypress')
+    cy.xpath("/*'[name=q]").type('cypress')
     //wait
      testTimeout(2 * 1000)
     cy.wait(10 * 1000)
