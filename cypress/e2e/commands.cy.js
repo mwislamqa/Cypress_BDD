@@ -1,7 +1,7 @@
 
 // comming for ./support/commands.js we can store common code and we can use it everythere.
 
-it('login test',{tags:'@smoke'},  ()=>{
+it('login test',{tags:'@comtest'},  ()=>{
 cy.visit('./')
 cy.loginApp('standard_user', 'secret_sauce');
 //cy.url().should('include', '/dashboard');

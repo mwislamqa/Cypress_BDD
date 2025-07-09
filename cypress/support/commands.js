@@ -13,9 +13,9 @@
 Cypress.Commands.add('loginApp', (userName, password) => { 
 
  
-  cy.xpath("//input[@id='user-name']").type(userName);
+ // cy.xpath("//input[@id='user-name']").type(userName);
   ////input[@id='user-name']
-  //cy.get('#user-name').type(userName);
+  cy.get('#user-name').type(userName);
   cy.get('#password').type(password);
   cy.get('#login-button').click();
 
