@@ -1,4 +1,4 @@
-name: Seneti tests
+name: Sanity tests1
 on: push
 jobs:
   cypress-run:

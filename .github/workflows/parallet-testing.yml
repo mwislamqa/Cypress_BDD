@@ -1,4 +1,4 @@
-name: Seneti tests demo
+name: Sanity tests
 on: push
 jobs:
   cypress-run chrome browser:
